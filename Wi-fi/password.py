@@ -23,11 +23,11 @@ def extract_wifi_passwords():
 		print(f'Profile: {profile}\n Password: {password}\n {"#"*20}')
 
 		with open(file='wifi_password.txt', mode='a', encoding='utf-8') as file:
-			file.write(f'Profile: {profile}\n Password: {password}\n {"#"*20}')
+			file.write(f'Profile: {profile}\n Password: {password}\n {"#" * 20}\n')
 
 
 def main():
-	extract_wifi_passwords()
+	extract_wifi_passwords():
 
 if __name__ == '__main__':
 	main()
